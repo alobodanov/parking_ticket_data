@@ -33,7 +33,7 @@ pyOpenSSL==19.0.0
 pytz==2019.1
 pyxdg==0.25
 pyxform==0.13.1
-PyYAML==3.12
+PyYAML==5.1
 requests==2.22.0
 SecretStorage==2.3.1
 six==1.12.0
