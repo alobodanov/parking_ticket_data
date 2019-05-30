@@ -1,4 +1,4 @@
-# parking-ticket-data
+# Parking Ticket Data
 
 
 In order to run the application you need to export an environment variable that tells Flask where to find the application instance:
