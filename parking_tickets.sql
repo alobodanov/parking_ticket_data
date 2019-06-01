@@ -7,7 +7,7 @@ CREATE TABLE parking_tickets(
     infraction_code INT,
     infraction_description VARCHAR(1000),
     set_fine_amount FLOAT,
-    time_of_infraction INT
+    time_of_infraction INT,
     location2 VARCHAR(100)
     );
 SELECT*FROM parking_tickets;
