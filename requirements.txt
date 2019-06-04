@@ -24,7 +24,7 @@ linecache2==1.0.0
 Markdown==2.6.9
 MarkupSafe==1.1.1
 ndg-httpsclient==0.5.1
--e git+https://github.com/alobodanov/parking-ticket-data.git@29f8fe804e22d820ed90e831c477b7d5b5571c71#egg=parkingTicketData
+-e git+https://github.com/alobodanov/parking-ticket-data.git@09ae0f813ddb30c0ed0c249d4b4def71f264adb3#egg=parkingTicketData
 pusher==2.1.3
 pyasn1==0.4.5
 pycparser==2.19
