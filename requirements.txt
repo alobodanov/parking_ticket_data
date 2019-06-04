@@ -3,7 +3,6 @@ certifi==2019.3.9
 cffi==1.12.3
 chardet==3.0.4
 Click==7.0
-cmdtest==0.32
 cryptography==2.6.1
 dominate==2.3.5
 enum34==1.1.6
