@@ -9,8 +9,10 @@ turn on “debug mode” with this environment variable:
 
 ```export FLASK_DEBUG=true```
 
-In order to install and run the application you need to issue the following commands:
+In order to install the application you need to run the following command:
 
 ```pip install -e .```
 
-```flask run```
+And to run the application:
+
+```./run.sh```
