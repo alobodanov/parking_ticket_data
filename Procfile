@@ -1,1 +1,1 @@
-web: gunicorn parkingTicketData:app
+web: gunicorn parkingTicketData.app:app
