@@ -16,7 +16,9 @@ engine = db.create_engine('dialect+driver://r92rmrsruojzupqe:v10ejjwsi5khwwdo@s3
 connection = engine.connect()
 
 metadata = db.MetaData()
-census = db.Table('parking_ticket_data', metadata, autoload=True, autoload_with=engine)
+census = db.Table('parking_tickets', metadata, autoload=True, autoload_with=engine)
+
+print(census.columns.keys())
 
 
 @app.route("/")
