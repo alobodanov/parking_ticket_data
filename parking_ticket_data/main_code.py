@@ -1,6 +1,6 @@
 import pandas as pd
-import pymysql
-pymysql.install_as_MySQLdb()
+# import pymysql
+# pymysql.install_as_MySQLdb()
 import numpy as np
 import re
 from geopy.geocoders import Nominatim
