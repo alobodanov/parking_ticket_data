@@ -2,715 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="825321a2-6f7e-4692-8132-9b74e92f1d2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/parking_ticket_data/main_code.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parking_ticket_data/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main Code.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/parking_tickets_2016/Parking_Tags_Data_2016_1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/parking_tickets_2016/Parking_Tags_Data_2016_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/parking_tickets_2016/Parking_Tags_Data_2016_3.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/parking_tickets_2016/Parking_Tags_Data_2016_4.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/parking_tickets_2017/Parking_Tags_Data_2017_1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/parking_tickets_2017/Parking_Tags_Data_2017_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/parking_tickets_2017/Parking_Tags_Data_2017_3.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/parking_tickets_2018/Parking_Tags_Data_2018_1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/parking_tickets_2018/Parking_Tags_Data_2018_1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/parking_tickets_2018/Parking_Tags_Data_2018_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/parking_tickets_2018/Parking_Tags_Data_2018_3.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/Resources/parking_tickets_2016/Parking_Tags_Data_2016_1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/Resources/parking_tickets_2016/Parking_Tags_Data_2016_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/Resources/parking_tickets_2016/Parking_Tags_Data_2016_3.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/Resources/parking_tickets_2016/Parking_Tags_Data_2016_4.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/Resources/parking_tickets_2017/Parking_Tags_Data_2017_1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/Resources/parking_tickets_2017/Parking_Tags_Data_2017_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/Resources/parking_tickets_2017/Parking_Tags_Data_2017_3.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/Resources/parking_tickets_2018/Parking_Tags_Data_2018_1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/Resources/parking_tickets_2018/Parking_Tags_Data_2018_1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/Resources/parking_tickets_2018/Parking_Tags_Data_2018_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/Resources/parking_tickets_2018/Parking_Tags_Data_2018_3.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/css/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/css/animate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/css/default-assets/classy-nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/css/default-assets/classy-nav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/css/fonts/ElegantIcons.eot" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/css/fonts/ElegantIcons.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/css/fonts/ElegantIcons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/css/fonts/ElegantIcons.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/css/fonts/ElegantIcons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/css/fonts/ElegantIcons.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/css/fonts/ElegantIcons.woff" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/css/fonts/ElegantIcons.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/css/jquery-ui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/css/jquery-ui.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/css/magnific-popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/css/magnific-popup.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/css/mainpage.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/css/nice-select.css" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/css/nice-select.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/css/owl.carousel.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/css/owl.carousel.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/11.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/12.png" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/12.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/13.png" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/13.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/14.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/15.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/16.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/17.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/18.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/19.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/20.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/21.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/22.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/23.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/23.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/24.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/24.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/25.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/25.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/26.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/26.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/27.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/27.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/28.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/28.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/29.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/29.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/30.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/30.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/31.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/31.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/32.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/32.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/33.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/33.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/34.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/34.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/35.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/35.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/36.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/36.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/37.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/37.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/38.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/38.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/39.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/39.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/40.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/40.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/41.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/41.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/42.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/42.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/43.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/43.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/44.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/44.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/45.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/45.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/46.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/46.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/47.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/47.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/48.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/48.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/49.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/49.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/50.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/50.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/51.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/51.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/52.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/52.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/53.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/53.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/54.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/54.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/55.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/55.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/56.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/56.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/57.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/57.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/58.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/58.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/59.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/59.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/60.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/60.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/61.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/61.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/62.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/62.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/63.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/63.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/64.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/64.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/65.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/65.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/66.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/66.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/67.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/67.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/68.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/68.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/69.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/69.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/70.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/70.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/71.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/71.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/72.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/72.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/bg-img/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/bg-img/9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/core-img/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/core-img/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/core-img/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/core-img/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/core-img/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/core-img/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/core-img/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/core-img/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/core-img/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/core-img/5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/core-img/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/core-img/favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/core-img/logo-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/core-img/logo-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/core-img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/core-img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/img/core-img/quote.png" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/img/core-img/quote.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/js/default-assets/active.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/js/default-assets/active.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/js/default-assets/avoid.console.error.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/js/default-assets/avoid.console.error.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/js/default-assets/classy-nav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/js/default-assets/jquery.scrollup.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/js/default-assets/jquery.scrollup.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/js/imagesloaded.pkgd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/js/imagesloaded.pkgd.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/js/isotope.pkgd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/js/isotope.pkgd.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/js/jarallax-video.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/js/jarallax-video.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/js/jarallax.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/js/jarallax.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/js/jquery-ui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/js/jquery-ui.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/js/jquery.countdown.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/js/jquery.countdown.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/js/jquery.counterup.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/js/jquery.counterup.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/js/jquery.easing.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/js/jquery.easing.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/js/jquery.magnific-popup.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/js/jquery.magnific-popup.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/js/jquery.nice-select.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/js/jquery.nice-select.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/js/owl.carousel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/js/owl.carousel.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/js/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/js/popper.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/js/rehomes.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/js/rehomes.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/js/waypoints.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/js/waypoints.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/js/wow.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/js/wow.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/mainpage.css" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/styles/mainpage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/styles/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/styles/animate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/styles/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/styles/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/styles/default-assets/classy-nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/styles/default-assets/classy-nav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/styles/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/styles/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/styles/fonts/ElegantIcons.eot" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/styles/fonts/ElegantIcons.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/styles/fonts/ElegantIcons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/styles/fonts/ElegantIcons.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/styles/fonts/ElegantIcons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/styles/fonts/ElegantIcons.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/styles/fonts/ElegantIcons.woff" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/styles/fonts/ElegantIcons.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/styles/jquery-ui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/styles/jquery-ui.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/styles/magnific-popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/styles/magnific-popup.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/styles/mainpage.css" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/mainpage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/styles/nice-select.css" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/styles/nice-select.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/styles/owl.carousel.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/styles/owl.carousel.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/static/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/styles/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/.sass-cache/730eba273e30d531072b65a134e5bad478a97634/_color.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/.sass-cache/730eba273e30d531072b65a134e5bad478a97634/_color.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/.sass-cache/730eba273e30d531072b65a134e5bad478a97634/_fonts.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/.sass-cache/730eba273e30d531072b65a134e5bad478a97634/_fonts.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/.sass-cache/730eba273e30d531072b65a134e5bad478a97634/_responsive.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/.sass-cache/730eba273e30d531072b65a134e5bad478a97634/_responsive.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/.sass-cache/730eba273e30d531072b65a134e5bad478a97634/_variables.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/.sass-cache/730eba273e30d531072b65a134e5bad478a97634/_variables.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_about.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_about.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_agent.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_agent.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_backtotop.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_backtotop.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_blog.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_blog.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_breadcrumb.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_breadcrumb.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_buttons.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_buttons.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_categories.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_categories.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_choose.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_choose.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_contact.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_contact.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_cta.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_cta.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_footer.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_footer.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_header.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_header.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_heading.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_heading.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_hero.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_hero.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_pagination.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_pagination.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_partner.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_partner.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_preloader.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_preloader.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_project.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_project.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_properties.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_properties.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_reboot.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_reboot.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_sale.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_sale.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_search.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_search.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_spacing.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_spacing.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_support.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_support.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_testimonial.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_testimonial.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_widget.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_widget.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/style.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/.sass-cache/fe97fa75fc0c907827aa57234a4d2505d4134da7/_flex.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/.sass-cache/fe97fa75fc0c907827aa57234a4d2505d4134da7/_flex.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/.sass-cache/fe97fa75fc0c907827aa57234a4d2505d4134da7/_miscellaneous.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/.sass-cache/fe97fa75fc0c907827aa57234a4d2505d4134da7/_miscellaneous.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/agent.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/blog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/changelog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/changelog.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/css/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/css/animate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/css/default-assets/classy-nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/css/default-assets/classy-nav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/css/fonts/ElegantIcons.eot" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/css/fonts/ElegantIcons.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/css/fonts/ElegantIcons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/css/fonts/ElegantIcons.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/css/fonts/ElegantIcons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/css/fonts/ElegantIcons.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/css/fonts/ElegantIcons.woff" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/css/fonts/ElegantIcons.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/css/jquery-ui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/css/jquery-ui.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/css/magnific-popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/css/magnific-popup.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/css/nice-select.css" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/css/nice-select.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/css/owl.carousel.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/css/owl.carousel.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/fonts/FontAwesome.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/fonts/classy-fonts.eot" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/fonts/classy-fonts.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/fonts/classy-fonts.svg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/fonts/classy-fonts.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/fonts/classy-fonts.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/fonts/classy-fonts.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/fonts/classy-fonts.woff" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/fonts/classy-fonts.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/gulpfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/11.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/12.png" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/12.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/13.png" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/13.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/14.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/15.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/16.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/17.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/18.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/19.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/20.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/21.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/22.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/23.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/23.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/24.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/24.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/25.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/25.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/26.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/26.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/27.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/27.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/28.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/28.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/29.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/29.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/30.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/30.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/31.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/31.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/32.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/32.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/33.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/33.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/34.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/34.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/35.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/35.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/36.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/36.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/37.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/37.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/38.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/38.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/39.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/39.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/40.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/40.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/41.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/41.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/42.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/42.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/43.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/43.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/44.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/44.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/45.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/45.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/46.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/46.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/47.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/47.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/48.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/48.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/49.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/49.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/50.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/50.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/51.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/51.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/52.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/52.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/53.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/53.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/54.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/54.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/55.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/55.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/56.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/56.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/57.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/57.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/58.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/58.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/59.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/59.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/60.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/60.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/61.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/61.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/62.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/62.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/63.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/63.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/64.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/64.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/65.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/65.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/66.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/66.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/67.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/67.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/68.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/68.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/69.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/69.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/70.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/70.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/71.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/71.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/72.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/72.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/bg-img/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/bg-img/9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/core-img/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/core-img/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/core-img/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/core-img/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/core-img/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/core-img/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/core-img/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/core-img/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/core-img/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/core-img/5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/core-img/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/core-img/favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/core-img/logo-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/core-img/logo-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/core-img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/core-img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/img/core-img/quote.png" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/img/core-img/quote.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/js/default-assets/active.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/js/default-assets/active.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/js/default-assets/avoid.console.error.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/js/default-assets/avoid.console.error.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/js/default-assets/classy-nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/js/default-assets/classy-nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/js/default-assets/jquery.scrollup.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/js/default-assets/jquery.scrollup.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/js/imagesloaded.pkgd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/js/imagesloaded.pkgd.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/js/isotope.pkgd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/js/isotope.pkgd.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/js/jarallax-video.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/js/jarallax-video.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/js/jarallax.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/js/jarallax.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/js/jquery-ui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/js/jquery-ui.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/js/jquery.countdown.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/js/jquery.countdown.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/js/jquery.counterup.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/js/jquery.counterup.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/js/jquery.easing.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/js/jquery.easing.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/js/jquery.magnific-popup.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/js/jquery.magnific-popup.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/js/jquery.nice-select.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/js/jquery.nice-select.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/js/owl.carousel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/js/owl.carousel.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/js/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/js/popper.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/js/rehomes.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/js/waypoints.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/js/waypoints.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/js/wow.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/js/wow.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/licence" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/licence" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/properties-details.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/rent.html" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/rent.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/scss/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/scss/_about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/scss/_agent.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/scss/_backtotop.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/scss/_blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/scss/_blog.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/scss/_breadcrumb.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/scss/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/scss/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/scss/_categories.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/scss/_choose.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/scss/_contact.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/scss/_cta.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/scss/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/scss/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/scss/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/scss/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/scss/_heading.scss" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/scss/_heading.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/scss/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/scss/_hero.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/scss/_pagination.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/scss/_partner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/scss/_partner.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/scss/_preloader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/scss/_preloader.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/scss/_project.scss" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/scss/_project.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/scss/_properties.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/scss/_reboot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/scss/_reboot.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/scss/_sale.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/scss/_search.scss" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/scss/_search.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/scss/_spacing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/scss/_spacing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/scss/_support.scss" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/scss/_support.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/scss/_testimonial.scss" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/scss/_testimonial.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/scss/_widget.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/scss/mixins/_flex.scss" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/scss/mixins/_flex.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/scss/mixins/_miscellaneous.scss" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/scss/mixins/_miscellaneous.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/scss/style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/scss/utilities/_color.scss" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/scss/utilities/_color.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/scss/utilities/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/scss/utilities/_fonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/scss/utilities/_responsive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/scss/utilities/_responsive.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/scss/utilities/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/scss/utilities/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/single-blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/single-blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingTicketData/templates/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/run.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/default-assets/classy-nav.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/fonts/ElegantIcons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/fonts/ElegantIcons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/fonts/ElegantIcons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/fonts/ElegantIcons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/jquery-ui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/magnific-popup.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/mainpage.css" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/css/mainpage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/nice-select.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/owl.carousel.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/24.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/26.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/27.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/28.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/29.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/30.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/31.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/32.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/33.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/34.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/35.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/36.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/37.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/38.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/39.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/40.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/41.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/42.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/43.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/44.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/45.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/46.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/47.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/48.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/49.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/50.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/51.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/52.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/53.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/54.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/55.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/56.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/57.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/58.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/59.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/60.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/61.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/62.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/63.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/65.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/66.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/67.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/68.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/69.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/70.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/71.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/72.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bg-img/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/core-img/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/core-img/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/core-img/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/core-img/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/core-img/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/core-img/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/core-img/logo-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/core-img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/core-img/quote.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/default-assets/active.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/default-assets/avoid.console.error.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/default-assets/classy-nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/js/default-assets/classy-nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/default-assets/jquery.scrollup.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/imagesloaded.pkgd.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/isotope.pkgd.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/jarallax-video.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/jarallax.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/jquery-ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/jquery.countdown.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/jquery.counterup.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/jquery.easing.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/jquery.magnific-popup.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/jquery.nice-select.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/owl.carousel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/rehomes.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/static/js/rehomes.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/waypoints.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/wow.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/mainpage.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/styles/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/styles/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/styles/default-assets/classy-nav.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/styles/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/styles/fonts/ElegantIcons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/styles/fonts/ElegantIcons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/styles/fonts/ElegantIcons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/styles/fonts/ElegantIcons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/styles/jquery-ui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/styles/magnific-popup.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/styles/mainpage.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/styles/nice-select.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/styles/owl.carousel.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/styles/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/.sass-cache/730eba273e30d531072b65a134e5bad478a97634/_color.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/.sass-cache/730eba273e30d531072b65a134e5bad478a97634/_fonts.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/.sass-cache/730eba273e30d531072b65a134e5bad478a97634/_responsive.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/.sass-cache/730eba273e30d531072b65a134e5bad478a97634/_variables.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_about.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_agent.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_backtotop.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_blog.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_breadcrumb.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_buttons.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_categories.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_choose.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_contact.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_cta.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_footer.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_header.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_heading.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_hero.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_pagination.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_partner.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_preloader.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_project.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_properties.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_reboot.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_sale.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_search.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_spacing.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_support.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_testimonial.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/_widget.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/.sass-cache/73eb2507b2c3fdabd46aa55e2b2469a8df13a602/style.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/.sass-cache/fe97fa75fc0c907827aa57234a4d2505d4134da7/_flex.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/.sass-cache/fe97fa75fc0c907827aa57234a4d2505d4134da7/_miscellaneous.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/agent.html" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/agent.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/changelog.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/css/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/css/default-assets/classy-nav.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/css/fonts/ElegantIcons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/css/fonts/ElegantIcons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/css/fonts/ElegantIcons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/css/fonts/ElegantIcons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/css/jquery-ui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/css/magnific-popup.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/css/nice-select.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/css/owl.carousel.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/fonts/classy-fonts.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/fonts/classy-fonts.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/fonts/classy-fonts.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/fonts/classy-fonts.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/24.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/26.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/27.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/28.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/29.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/30.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/31.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/32.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/33.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/34.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/35.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/36.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/37.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/38.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/39.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/40.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/41.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/42.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/43.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/44.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/45.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/46.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/47.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/48.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/49.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/50.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/51.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/52.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/53.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/54.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/55.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/56.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/57.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/58.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/59.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/60.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/61.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/62.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/63.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/65.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/66.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/67.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/68.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/69.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/70.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/71.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/72.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/bg-img/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/core-img/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/core-img/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/core-img/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/core-img/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/core-img/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/core-img/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/core-img/logo-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/core-img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/core-img/quote.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/js/default-assets/active.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/js/default-assets/avoid.console.error.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/js/default-assets/classy-nav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/js/default-assets/jquery.scrollup.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/js/imagesloaded.pkgd.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/js/isotope.pkgd.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/js/jarallax-video.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/js/jarallax.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/js/jquery-ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/js/jquery.countdown.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/js/jquery.counterup.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/js/jquery.easing.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/js/jquery.magnific-popup.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/js/jquery.nice-select.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/js/owl.carousel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/js/popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/js/rehomes.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/js/waypoints.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/js/wow.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/licence" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/properties-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/properties-details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/rent.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/_about.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/_agent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/scss/_agent.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/_backtotop.scss" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/scss/_backtotop.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/_blog.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/_breadcrumb.scss" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/scss/_breadcrumb.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/_buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/_categories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/scss/_categories.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/_choose.scss" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/scss/_choose.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/_contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/scss/_contact.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/_cta.scss" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/scss/_cta.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/_footer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/_header.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/_heading.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/_hero.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/scss/_pagination.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/_partner.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/_preloader.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/_project.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/_properties.scss" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/scss/_properties.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/_reboot.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/_sale.scss" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/scss/_sale.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/_search.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/_spacing.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/_support.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/_testimonial.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/_widget.scss" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/scss/_widget.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/mixins/_flex.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/mixins/_miscellaneous.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/utilities/_color.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/utilities/_fonts.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/utilities/_responsive.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/utilities/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/single-blog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking_ticket_data/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/parking_ticket_data/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -719,76 +12,64 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.76619273">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/requirements.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Procfile">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="41" lean-forward="true" selection-start-column="41" selection-end-column="41" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/parking_ticket_data/app.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-                  <folding>
-                    <element signature="e#29#89#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/run.sh">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="36" lean-forward="true" selection-start-column="36" selection-end-column="36" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/parking_ticket_data/main_code.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="425">
-                  <caret line="96" column="20" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
-                  <folding>
-                    <element signature="e#0#19#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/parking_ticket_data/models.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="34">
-                  <caret line="2" selection-start-line="2" selection-end-line="2" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parking_ticket_data/main_code.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="718">
+              <caret line="98" selection-start-line="98" selection-end-line="98" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parking_ticket_data/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parking_ticket_data/app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+              <folding>
+                <element signature="e#29#89#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/parking_ticket_data/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parking_ticket_data/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="36" lean-forward="true" selection-start-column="36" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -844,15 +125,17 @@
         <option value="$PROJECT_DIR$/parkingTicketData/app.py" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/run.sh" />
-        <option value="$PROJECT_DIR$/parking_ticket_data/app.py" />
+        <option value="$PROJECT_DIR$/parking_ticket_data/models.py" />
         <option value="$PROJECT_DIR$/parking_ticket_data/main_code.py" />
+        <option value="$PROJECT_DIR$/parking_ticket_data/app.py" />
+        <option value="$PROJECT_DIR$/parking_ticket_data/templates/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="323" />
+    <option name="x" value="374" />
     <option name="y" value="4" />
-    <option name="width" value="1599" />
+    <option name="width" value="1548" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -860,6 +143,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -872,40 +156,29 @@
               <item name="parking-ticket-data" type="462c0819:PsiDirectoryNode" />
               <item name="parking_ticket_data" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="parking-ticket-data" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parking-ticket-data" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parking-ticket-data" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parking-ticket-data" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="parking_tickets_2018" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/parking_ticket_data/Resources/parking_tickets_2018" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\artem\Anaconda3\envs\PythonData\Assignments\Project2\parking-ticket-data\Resources\parking_tickets_2018" />
+      <recent name="C:\Users\artem\Anaconda3\envs\PythonData\Assignments\Project2\parking-ticket-data\parkingTicketData" />
+      <recent name="C:\Users\artem\Anaconda3\envs\PythonData\Assignments\Project2\parking-ticket-data\parkingTicketData\static\css" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\artem\Anaconda3\envs\PythonData\Assignments\Project2\parking-ticket-data\parking_ticket_data\Resources\parking_tickets_2018" />
       <recent name="C:\Users\artem\Anaconda3\envs\PythonData\Assignments\Project2\parking-ticket-data" />
       <recent name="C:\Users\artem\Anaconda3\envs\PythonData\Assignments\Project2\parking-ticket-data\parkingTicketData\static\css" />
       <recent name="C:\Users\artem\Anaconda3\envs\PythonData\Assignments\Project2\parking-ticket-data\parkingTicketData\static" />
       <recent name="C:\Users\artem\Anaconda3\envs\PythonData\Assignments\Project2\parking-ticket-data\parkingTicketData\static\img" />
-      <recent name="C:\Users\artem\Anaconda3\envs\PythonData\Assignments\Project2\parking-ticket-data\parkingTicketData\static\js" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\artem\Anaconda3\envs\PythonData\Assignments\Project2\parking-ticket-data\parkingTicketData" />
-      <recent name="C:\Users\artem\Anaconda3\envs\PythonData\Assignments\Project2\parking-ticket-data\parkingTicketData\static\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -951,10 +224,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="323" y="4" width="1599" height="1047" extended-state="0" />
+    <frame x="374" y="4" width="1548" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18898143" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25165564" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -965,7 +238,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32932165" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32932165" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32603937" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.38183808" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" />
@@ -974,6 +247,22 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="connecting to db" />
@@ -1058,13 +347,6 @@
     <entry file="file://$PROJECT_DIR$/parking_ticket_data/static/mainpage.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/parking_ticket_data/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="834" column="37" selection-start-line="834" selection-start-column="37" selection-end-line="834" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/parking_ticket_data/static/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1084,9 +366,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/parking_tickets_2016/Parking_Tags_Data_2016_1.csv">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/parking_tickets_2016/Parking_Tags_Data_2016_1.csv" />
     <entry file="file://$PROJECT_DIR$/instance/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1094,19 +374,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="10" selection-end-line="63" />
-          <folding>
-            <element signature="e#29#82#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py" />
+    <entry file="file://$PROJECT_DIR$/models.py" />
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1114,9 +383,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/application.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/flask/templating.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -1124,12 +391,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parking_ticket_data/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py" />
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1144,16 +406,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parking_ticket_data/Resources/parking_tickets_2018/Parking_Tags_Data_2018_1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-561" />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/parking_tickets_2018/Parking_Tags_Data_2018_1.csv">
+      <provider editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parking_ticket_data/Resources/parking_tickets_2018/Parking_Tags_Data_2018_1.csv">
+      <provider editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="LargeFileEditor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/run.sh">
       <provider selected="true" editor-type-id="text-editor">
@@ -1162,36 +432,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/parking_ticket_data/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/parking_ticket_data/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="170">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parking_ticket_data/main_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="718">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/parking_ticket_data/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        <state relative-caret-position="459">
+          <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
           <folding>
             <element signature="e#29#89#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/parking_tickets_2018/Parking_Tags_Data_2018_1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parking_ticket_data/main_code.py">
+    <entry file="file://$PROJECT_DIR$/parking_ticket_data/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="96" column="20" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
         </state>
       </provider>
     </entry>

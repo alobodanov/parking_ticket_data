@@ -16,7 +16,7 @@ L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 //var lArray = ["570 Bay st, Toronto", "37 charles st e,Toronto", "1001 Bay st, Toronto","75 queen st w, Toronto","777 bay st","20 spadina ave, Toronto","1 yonge, toronto"]
 
 //var url = "https://parking-ticket-data.herokuapp.com/api/data";
-submit.on("click", function() {
+function submt() {
   //  fetch(url).then((response) => response.json()).then(function(response) {
     
     var inputElement_date = d3.select("#date");
@@ -219,7 +219,7 @@ var heat = L.heatLayer(coord, {
    Plotly.newPlot("piechart3", data3, layout);
 
 //});
-});
+}
 
 
 
