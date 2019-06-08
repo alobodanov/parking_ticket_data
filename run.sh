@@ -1,6 +1,1 @@
-#!/bin/bash
-#export FLASK_APP=parkingTicketData
-#export FLASK_DEBUG=true
-#pip install -e .
-#FLASK_APP=parkingTicketData/app.py
-gunicorn app:app
+gunicorn parking_ticket_data.app:app
