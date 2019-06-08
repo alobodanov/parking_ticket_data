@@ -26,7 +26,7 @@ def setup():
 @app.route("/")
 def home():
     parking_ticket = ParkingTickets()
-    main_code.import_data(parking_ticket)
+    main_code.import_data()
     db.session.add(parking_ticket)
     db.session.commit()
 
@@ -42,6 +42,8 @@ def list_parking_data():
         ParkingTickets.set_fine_amount,
         ParkingTickets.time_of_infraction,
         ParkingTickets.location2,
+        ParkingTickets.lat,
+        ParkingTickets.long,
     ).all()
 
     parking_tickets = []
@@ -54,6 +56,8 @@ def list_parking_data():
             "set_fine_amount": result[3],
             "time_of_infraction": result[4],
             "location2": result[5],
+            "lat": result[6],
+            "long": result[7]
         })
 
     return jsonify(parking_tickets)

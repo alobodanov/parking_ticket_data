@@ -1,5 +1,5 @@
-from .app import db
-# from .main_code import db
+# from .app import db
+from .main_code import db
 
 
 class ParkingTickets(db.Model):

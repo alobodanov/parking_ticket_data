@@ -16,13 +16,13 @@ app.config['SQLALCHEMY_DATABASE_URI'] = "postgres://vygftypudfazeb:da70bc2df3dd7
 
 db = SQLAlchemy(app)
 
-# from .models import ParkingTickets
+from .models import ParkingTickets
 
 
-def import_data(ParkingTickets):
+def import_data():
     try:
         csv_tickets_1 = "Resources/parking_tickets_2018/Parking_Tags_Data_2018_1.csv"
-        ticket_df_1 = pd.read_csv(csv_tickets_1, delim_whitespace=True)
+        ticket_df_1 = pd.read_csv(csv_tickets_1)
 
         tickets_2015_df = ticket_df_1
         locations = list(tickets_2015_df["location2"])
@@ -94,4 +94,5 @@ def import_data(ParkingTickets):
                 print(e)
                 continue
     except:
-        print('error')
+        print('hello')
+
