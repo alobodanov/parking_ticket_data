@@ -11,9 +11,9 @@ var map = L.mapquest.map('map1', {
 
 //var lArray = ["570 Bay st, Toronto", "37 charles st e,Toronto", "1001 Bay st, Toronto","75 queen st w, Toronto","777 bay st","20 spadina ave, Toronto","1 yonge, toronto"]
 
-var url = "http://www.mapquestapi.com/geocoding/v1/address?key=KEY";
+var url = "https://parking-ticket-data.herokuapp.com/api/data";
 submit.on("click", function() {
-    d3.json(url, function(response) {
+    fetch(url).then((response) => response.json()).then(function(response) {
     
     var inputElement_date = d3.select("#date");
     var inputElement_time = d3.select("#time");
@@ -133,7 +133,7 @@ for (var i = 0; i < response.length; i++) {
     }
     }
 
-  lArray.push(location,);
+  lArray.push(location);
   L.mapquest.geocoding().geocode(lArray);
 
 //pie chart building
@@ -184,6 +184,7 @@ for (var i = 0; i < response.length; i++) {
 
 });
 });
+
 
 
  
