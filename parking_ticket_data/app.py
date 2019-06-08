@@ -33,7 +33,7 @@ def home():
     return render_template("index.html")
 
 
-@app.route("/api/data")
+@app.route("/api/data" methods = "POST")
 def list_parking_data():
     results = db.session.query(
         ParkingTickets.date_of_infraction,
