@@ -1,8 +1,9 @@
 # import necessary libraries
 from flask import (
     render_template,
-    jsonify, Flask)
+    jsonify, Flask,Markup)
 from flask_sqlalchemy import SQLAlchemy
+import json
 
 import parking_ticket_data.main_code as main_code
 
@@ -49,9 +50,10 @@ def list_parking_data():
     parking_tickets = []
 
     for result in results:
+
         parking_tickets.append({
             "date_of_infraction": result[0],
-            "infraction_code": result[1],
+            "infraction_code": result[1],  #s[1:] re.sub('[ES]', 'a', s)
             "infraction_description": result[2],
             "set_fine_amount": result[3],
             "time_of_infraction": result[4],
@@ -59,8 +61,8 @@ def list_parking_data():
             "lat": result[6],
             "long": result[7]
         })
-
-    return jsonify(parking_tickets)
+    #stuff = json.dumps(parking_tickets));
+    return render_template("index.html", stuff = Markup(json.dumps(parking_tickets)))
 
 
 @app.route("/api/filter")
