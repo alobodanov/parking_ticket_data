@@ -20,12 +20,12 @@ submit.on("click", function() {
     var inputElement_location = d3.select("#location");
     var inputElement_fine_type = d3.select("#fine_type");
 
-    var inputValue_date = inputElement_date.property("value");
+   // var inputValue_date = inputElement_date.property("value");
     var inputValue_time = inputElement_time.property("value");
-    var inputValue_location = inputElement_location.property("value");
+//var inputValue_location = inputElement_location.property("value");
     var inputValue_fine_type = inputElement_fine_type.property("value");
     
-    var filteredData = response;
+   // var filteredData = response;
 //  console.log(response);
 
 var lArray = {};
