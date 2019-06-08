@@ -28,7 +28,7 @@ submit.on("click", function() {
    // var filteredData = response;
 //  console.log(response);
 
-var lArray = {};
+var lArray = [];
 var location =[];
 var location_count = [];
 var total_location_count = 0;
