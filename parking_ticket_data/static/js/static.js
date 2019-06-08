@@ -13,7 +13,7 @@ var map = L.mapquest.map('map1', {
 
 var url = "https://parking-ticket-data.herokuapp.com/api/data";
 submit.on("click", function() {
-    fetch(url).then((response) => response.json()).then(function(response) {
+    //fetch(url).then((response) => response.json()).then(function(response) {
     
     var inputElement_date = d3.select("#date");
     var inputElement_time = d3.select("#time");
@@ -182,7 +182,7 @@ for (var i = 0; i < response.length; i++) {
     
    Plotly.newPlot("piechart3", data3, layout);
 
-});
+//});
 });
 
 
